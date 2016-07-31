@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Etape 1"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textSize="20pt"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déffinissez le token de sécurité :"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textSize="14pt"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/token"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generer token aleatoire "
+        android:id="@+id/gentoken"
+        android:layout_weight="0.10"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effacer"
+        android:id="@+id/clear"
+        android:layout_weight="0.10"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etape suivante"
+        android:id="@+id/next_step"
+        android:layout_weight="0.10"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
